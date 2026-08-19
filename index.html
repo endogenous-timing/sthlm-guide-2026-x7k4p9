@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b45">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+  <meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+  <title>Stockholm · Family itinerary · 25–29 August 2026</title>
+  <style>
+    :root {
+      --ink:#173039; --muted:#60757a; --paper:#f6f3eb; --card:#fffdf8;
+      --deep:#173b45; --sea:#327c86; --sky:#dceef0; --sand:#e7c997;
+      --coral:#d96b4f; --line:#d9dfdb; --good:#2f7654; --shadow:0 14px 40px rgba(18,49,57,.11);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden}
+    a{color:var(--sea);text-decoration-thickness:1px;text-underline-offset:3px}
+    img{display:block;width:100%;height:100%;object-fit:cover}
+    .wrap{width:min(1120px,calc(100% - 32px));margin:auto}
+    .hero{min-height:650px;position:relative;display:grid;align-items:end;color:white;background:#173b45;overflow:hidden}
+    .hero>img{position:absolute;inset:0;opacity:.63;filter:saturate(.82) contrast(1.05)}
+    .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,37,45,.08) 10%,rgba(10,37,45,.2) 45%,rgba(10,37,45,.94) 100%)}
+    .hero-content{position:relative;z-index:1;padding:90px 0 58px}
+    .eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;font-weight:800;color:#bee2df}
+    h1{font-family:Georgia,serif;font-size:clamp(3.25rem,9vw,7rem);line-height:.88;letter-spacing:-.055em;margin:.15em 0 .24em;max-width:830px}
+    .lead{font-size:clamp(1.05rem,2vw,1.4rem);max-width:730px;margin:0 0 28px;color:#eef8f7}
+    .pills{display:flex;flex-wrap:wrap;gap:9px}
+    .pill{border:1px solid rgba(255,255,255,.38);background:rgba(7,35,42,.38);backdrop-filter:blur(7px);border-radius:999px;padding:8px 13px;font-size:.9rem}
+    nav{position:sticky;top:0;z-index:10;background:rgba(246,243,235,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    nav .wrap{display:flex;gap:24px;align-items:center;overflow:auto;white-space:nowrap;padding:13px 0}
+    nav a{text-decoration:none;color:var(--ink);font-weight:700;font-size:.9rem}
+    section{padding:72px 0}
+    section:nth-of-type(even){background:#eef2ee}
+    h2{font:700 clamp(2.1rem,5vw,3.7rem)/1 Georgia,serif;letter-spacing:-.035em;margin:0 0 14px}
+    h3{font-size:1.18rem;line-height:1.25;margin:0 0 8px}
+    .intro{max-width:760px;color:var(--muted);font-size:1.06rem;margin:0 0 34px}
+    .grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:20px}
+    .grid>*,.day-body,.tables>*{min-width:0}
+    .card{background:var(--card);border:1px solid rgba(23,59,69,.1);border-radius:20px;padding:24px;box-shadow:var(--shadow)}
+    .summary .card{grid-column:span 4}
+    .stay-card{background:var(--card);border:1px solid rgba(23,59,69,.1);border-radius:24px;overflow:hidden;display:grid;grid-template-columns:43% 57%;box-shadow:var(--shadow)}
+    .stay-photo{min-height:390px;position:relative}
+    .stay-photo .label{position:absolute;left:18px;bottom:18px;background:rgba(255,253,248,.94);border-radius:999px;padding:7px 12px;font-size:.78rem;font-weight:800}
+    .stay-body{padding:34px 38px}.stay-body ul{padding-left:20px;margin:18px 0}.stay-body li{margin:8px 0}
+    .stay-links{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}
+    .stay-links a{background:var(--deep);color:white;border-radius:9px;padding:9px 12px;text-decoration:none;font-size:.84rem;font-weight:750}
+    .kicker{color:var(--coral);font-size:.75rem;font-weight:850;letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px}
+    .big{font:700 2rem/1.1 Georgia,serif;margin:4px 0 8px}
+    .muted{color:var(--muted)}
+    .recommend{background:var(--deep);color:white;border:0}
+    .recommend .muted{color:#c8dcdd}
+    .recommend .kicker{color:#f4cf99}
+    .days{display:grid;gap:28px}
+    .day{background:var(--card);border-radius:24px;overflow:hidden;display:grid;grid-template-columns:38% 62%;box-shadow:var(--shadow);border:1px solid rgba(23,59,69,.1)}
+    .day-photo{min-height:390px;position:relative}
+    .day-photo .label{position:absolute;top:18px;left:18px;background:rgba(255,253,248,.92);color:var(--ink);border-radius:99px;padding:7px 12px;font-weight:800;font-size:.82rem}
+    .day-body{padding:30px 34px}
+    .day-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;border-bottom:1px solid var(--line);padding-bottom:17px;margin-bottom:16px}
+    .day h3{font:700 1.8rem/1.05 Georgia,serif}
+    .effort{white-space:nowrap;background:var(--sky);color:var(--deep);padding:7px 11px;border-radius:99px;font-size:.78rem;font-weight:800}
+    .timeline{list-style:none;padding:0;margin:0}
+    .timeline li{display:grid;grid-template-columns:74px 1fr;gap:14px;padding:9px 0;border-bottom:1px dashed #dce1de}
+    .timeline li:last-child{border:0}
+    .time{font-weight:850;color:var(--sea);font-variant-numeric:tabular-nums}
+    .note{margin-top:14px;padding:12px 14px;border-left:4px solid var(--sand);background:#f8f0df;border-radius:0 10px 10px 0;font-size:.9rem}
+    .tables{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    table{width:100%;border-collapse:collapse;background:var(--card);border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}
+    th,td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+    th{background:var(--deep);color:white;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em}
+    tr:last-child td{border:0}
+    td:last-child{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+    .food-grid .card{grid-column:span 4}
+    .food-grid .wide{grid-column:span 8}
+    .finds-grid .card{grid-column:span 4}
+    .facts-grid .card{grid-column:span 6}
+    .facts-grid ul{padding-left:19px;margin:10px 0 0}.facts-grid li{margin:7px 0}
+    .ticket-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+    .ticket-card{background:var(--card);border:1px solid rgba(23,59,69,.1);border-radius:20px;padding:24px;box-shadow:var(--shadow)}
+    .ticket-card h3{font:700 1.55rem/1.1 Georgia,serif;margin:8px 0 12px}
+    .ticket-card ol{padding-left:21px;margin:12px 0}
+    .ticket-card li{margin:8px 0}
+    .ticket-card .links{display:flex;flex-wrap:wrap;gap:9px;margin-top:16px}
+    .ticket-card .links a{display:inline-block;background:var(--deep);color:white;border-radius:9px;padding:8px 11px;text-decoration:none;font-size:.84rem;font-weight:750}
+    .booking-badge{display:inline-block;border-radius:999px;padding:5px 9px;font-size:.72rem;font-weight:850;letter-spacing:.05em;text-transform:uppercase;background:var(--sky);color:var(--deep)}
+    .booking-badge.now{background:#f5d7c9;color:#873c29}.booking-badge.later{background:#e1efdf;color:#315f3e}.booking-badge.door{background:#ece7db;color:#66563c}
+    .phone-box{margin-top:22px;background:var(--deep);color:white;border-radius:20px;padding:26px;box-shadow:var(--shadow)}
+    .phone-box h3{font:700 1.6rem/1.1 Georgia,serif}.phone-box p,.phone-box li{color:#d8e8e8}.phone-box strong{color:white}
+    .route-box{margin-top:16px;padding:15px 16px;background:#edf5f3;border:1px solid #cbded9;border-radius:14px}
+    .route-box strong{display:block;margin-bottom:8px}
+    .route-links{display:flex;flex-wrap:wrap;gap:8px}
+    .route-links a{display:inline-block;background:var(--deep);color:white;border-radius:9px;padding:7px 10px;text-decoration:none;font-size:.8rem;font-weight:750}
+    .route-box .route-note{display:block;color:var(--muted);font-size:.82rem;margin-top:9px}
+    footer{background:#102f37;color:#c8d9db;padding:42px 0;font-size:.82rem}
+    footer a{color:#a9dbe0}
+    .credits{max-width:900px}
+    @media(max-width:780px){
+      .hero{min-height:600px}.hero-content{padding-bottom:40px}h1,h2,.big{overflow-wrap:anywhere}
+      section{padding:52px 0}.summary .card,.food-grid .card,.food-grid .wide,.finds-grid .card,.facts-grid .card{grid-column:1/-1}
+      .stay-card{grid-template-columns:1fr}.stay-photo{min-height:250px}.stay-body{padding:26px 22px}
+      .day{grid-template-columns:1fr}.day-photo{min-height:240px}.day-body{padding:24px 20px}
+      .tables,.ticket-grid{grid-template-columns:1fr}.table-scroll{overflow-x:auto}
+      .day-head{display:block}.effort{display:inline-block;margin-top:12px}.route-links a{flex:1 1 145px;text-align:center}
+    }
+    @media print{
+      nav{display:none}body{background:white;font-size:12px}.wrap{width:94%}.hero{min-height:340px}
+      section{padding:28px 0}.day{break-inside:avoid;grid-template-columns:32% 68%;box-shadow:none;margin-bottom:15px}.day-photo{min-height:280px}
+      .card,table{box-shadow:none}
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img src="stockholm_itinerary_assets/hammarby.jpg" alt="Panorama of Hammarby Sjöstad and Stockholm waterfront">
+    <div class="hero-content wrap">
+      <div class="eyebrow">A comfort-first family escape</div>
+      <h1>Stockholm,<br>at an easy pace</h1>
+      <p class="lead">25–29 August 2026 · Two adults + Gustaw, age 8 · Based at UNITY Hammarby Sjöstad</p>
+      <div class="pills">
+        <span class="pill">4 nights</span><span class="pill">No rental car</span><span class="pill">Uber when it saves effort</span>
+        <span class="pill">History + archipelago</span><span class="pill">Gluten- & dairy-free options</span>
+      </div>
+    </div>
+  </header>
+
+  <nav><div class="wrap"><a href="#snapshot">At a glance</a><a href="#stay">Accommodation</a><a href="#facts">Good stories</a><a href="#tickets">Tickets</a><a href="#plan">Daily plan</a><a href="#finds">Swedish finds</a><a href="#transport">Transport</a><a href="#food">Food</a></div></nav>
+
+  <main>
+    <section id="snapshot">
+      <div class="wrap">
+        <div class="eyebrow" style="color:var(--sea)">The recommendation</div>
+        <h2>One substantial outing per day</h2>
+        <p class="intro">The schedule keeps mornings purposeful, afternoons flexible and evenings local. Cars remove awkward changes and long approaches; the apartment kitchen handles relaxed breakfasts and dietary needs.</p>
+        <div class="grid summary">
+          <article class="card recommend"><div class="kicker">Your base</div><div class="big">UNITY Executive Loft</div><p class="muted">A modern two-level apartment in Hammarby Sjöstad, with a 160 × 200 cm bed upstairs, 90 cm sofa bed downstairs and kitchenette. The levels give parents and Gustaw useful separation, though there is no closing bedroom door.</p></article>
+          <article class="card"><div class="kicker">Comfort rule</div><div class="big">Car for real transfers</div><p class="muted">Use Uber or Bolt across districts and for the airport. For sub-1.5 km links, use a direct tram or a short walk: app-car pickup, minimum fare and waiting usually erase the benefit.</p></article>
+          <article class="card"><div class="kicker">Carry each morning</div><div class="big">Phones + a light layer</div><p class="muted">Offline tickets, one small power bank, headphones, water and a safe snack. Vasa stays at 18–20°C, and the archipelago can feel cooler than central Stockholm.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="stay">
+      <div class="wrap">
+        <div class="eyebrow" style="color:var(--sea)">Our Stockholm base</div>
+        <h2>UNITY Hammarby Sjöstad</h2>
+        <p class="intro">A modern aparthotel base in a calm waterfront district, chosen for extra space, a kitchenette and pleasant local evenings rather than immediate proximity to the busiest sights.</p>
+        <article class="stay-card">
+          <div class="stay-photo"><img src="stockholm_itinerary_assets/hammarby.jpg" alt="Hammarby Sjöstad waterfront neighbourhood near UNITY"><span class="label">Hammarby Sjöstad waterfront</span></div>
+          <div class="stay-body">
+            <div class="kicker">Executive Loft Apartment · about 38 m²</div>
+            <h3>Two sleeping levels and a useful kitchenette</h3>
+            <ul>
+              <li><strong>Parents:</strong> queen bed in the upstairs loft; <strong>Gustaw:</strong> sofa bed in the living area below.</li>
+              <li>The split levels provide useful visual separation, although this remains a studio and there is no closing bedroom door.</li>
+              <li>Equipped kitchenette, spacious bathroom and built-in storage make four nights more comfortable and simplify gluten- and dairy-free breakfasts.</li>
+              <li>Shared facilities include a 24/7 gym and laundry, terrace, lounge and café bar. Reception is advertised as open 07:00–23:00.</li>
+            </ul>
+            <p class="muted"><strong>Address:</strong> Heliosgatan 13, 120 78 Stockholm. App cars are the default for cross-city sightseeing; nearby waterfront walks and local dinners keep evenings easy.</p>
+            <div class="stay-links"><a href="https://unity-living.com/se/locations/unity-hammarby-sjostad/">Official hotel page ↗</a><a href="https://www.google.com/maps/search/?api=1&amp;query=UNITY+Hammarby+Sjostad,+Heliosgatan+13,+Stockholm">Open in Google Maps ↗</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="facts">
+      <div class="wrap">
+        <div class="eyebrow" style="color:var(--sea)">A few things worth noticing</div>
+        <h2>Good stories to carry with you</h2>
+        <p class="intro">These are selected conversation starters—not another reading assignment. Each card gives the two or three facts most likely to make the place come alive for adults and Gustaw.</p>
+        <div class="grid facts-grid">
+          <article class="card recommend"><div class="kicker">Wednesday · essential</div><h3>Vasa: a 20-minute career</h3><ul><li>The warship sailed for only about <strong>20 minutes</strong> in 1628 before a gust pushed her over and water rushed through open gunports.</li><li>She was too tall and narrow for the heavy upper structure—an engineering and management failure on a royal scale.</li><li>About <strong>98% of the surviving timber is original</strong>. The dark ship was once a brightly painted, gilded advertisement for Swedish royal power.</li></ul></article>
+          <article class="card"><div class="kicker">Wednesday · optional</div><h3>Skansen: the original</h3><ul><li>Opened in <strong>1891</strong>, Skansen is the world’s oldest open-air museum.</li><li>Founder Artur Hazelius moved real buildings here from across Sweden to preserve ways of life disappearing during industrialisation.</li><li>The workshops are not decoration: the pottery is thrown, glazed and fired on site, and the glassworks continues a living Swedish craft tradition.</li></ul></article>
+          <article class="card"><div class="kicker">Wednesday · rain option</div><h3>Nordic Museum: a palace for ordinary life</h3><ul><li>It looks royal, but founder Artur Hazelius called it a <strong>“palace for the people’s memories.”</strong></li><li>The 153-metre building opened in 1907; its Great Hall is one of Sweden’s largest non-religious rooms.</li><li>The enormous seated figure is Gustav Vasa, marking the museum’s story of Nordic life from the 1500s onward.</li></ul></article>
+          <article class="card"><div class="kicker">Wednesday · Astrid option</div><h3>Junibacken: six stories on rails</h3><ul><li>The Story Train passes through <strong>six Astrid Lindgren stories</strong>.</li><li>Choose Polish for ease—or Swedish to hear <strong>Astrid Lindgren’s own recorded voice</strong>.</li><li>The attraction is designed principally for ages 0–8, making this Gustaw’s last perfectly timed year for it.</li></ul></article>
+          <article class="card"><div class="kicker">Thursday · essential</div><h3>Royal Armoury: history’s evidence locker</h3><ul><li>The museum traces its origin to <strong>1628—the same year Vasa sank</strong>—when Gustav II Adolf ordered clothes in which he had been wounded to be kept “as an eternal memory.”</li><li>Look for Streiff, the king’s horse from the Battle of Lützen and one of the oldest well-preserved stuffed horses in a museum.</li><li>Gustav III’s masquerade clothes connect directly to his fatal shooting at the Stockholm opera in 1792.</li></ul></article>
+          <article class="card"><div class="kicker">Thursday · on foot</div><h3>Gamla Stan: the city before the city</h3><ul><li>Stockholm’s medieval settlement grew here; most surviving façades date from the 1500s and 1600s.</li><li><strong>Stortorget is Stockholm’s oldest square</strong>, while nearby Köpmangatan is its oldest recorded street, mentioned in the 1300s.</li><li>The crooked lanes follow the island’s medieval street plan—one reason a taxi is useless inside the core.</li></ul></article>
+          <article class="card"><div class="kicker">Friday · essential</div><h3>The archipelago: Sweden multiplied</h3><ul><li><em>Skärgården</em>, as Swedes call it, contains roughly <strong>30,000 islands, islets and skerries</strong> and stretches about 80 km into the Baltic.</li><li>Only around 200 islands are inhabited year-round; many more hold the red summer cottages visible from the ship.</li><li>Stockholm itself sits on 14 islands, so the boundary between capital and archipelago is unusually fluid.</li></ul></article>
+          <article class="card"><div class="kicker">Friday · design stop</div><h3>Svenskt Tenn: exile transformed Swedish design</h3><ul><li>Estrid Ericson founded the company in <strong>1924</strong>, initially making modern pewter as an affordable alternative to silver.</li><li>Austrian-Jewish architect Josef Frank fled antisemitism and joined Svenskt Tenn in 1934; his exuberant patterns became Swedish design icons.</li><li>The store has occupied Strandvägen 5 since 1927—browse the staged rooms as a small design exhibition.</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="tickets">
+      <div class="wrap">
+        <div class="eyebrow" style="color:var(--sea)">What to show at the door</div>
+        <h2>Tickets, stripped to the essentials</h2>
+        <p class="intro">Keep the Vasa and cruise tickets offline. Wednesday’s second attraction remains a choose-one option; buy only the ticket you actually use.</p>
+
+        <div class="ticket-grid">
+          <article class="ticket-card">
+            <span class="booking-badge now">Have ready offline</span>
+            <h3>Cruise · Fri 28 Aug, 10:30</h3>
+            <p>Show the Strömma mobile QR ticket for all three passengers. Board <strong>M/S Östanå I at Strandvägen berth 15</strong>; arrive by 10:10.</p>
+            <p><strong>Before travel:</strong> retain Strömma’s written confirmation of one gluten-free and fully dairy-free lunch.</p>
+            <div class="links"><a href="https://www.stromma.com/en-se/stockholm/dining-cruises/lunch-cruises/archipelago-tour-with-lunch/">Official cruise page ↗</a></div>
+          </article>
+
+          <article class="ticket-card">
+            <span class="booking-badge now">Have ready offline</span>
+            <h3>Vasa Museum · Wed 26 Aug</h3>
+            <p>Show the Tickster QR codes: two adult tickets plus Gustaw’s free 0–18 ticket. The ticket is date-based, not timed, and does not skip the queue—keep the 08:30 arrival.</p>
+            <div class="links"><a href="https://www.vasamuseet.se/en/visit/buy-ticket/">Official Vasa tickets ↗</a></div>
+          </article>
+
+          <article class="ticket-card">
+            <span class="booking-badge later">Only if chosen</span>
+            <h3>Skansen</h3>
+            <p>Buy on the phone after Vasa: two adult day tickets plus Gustaw’s complimentary child ticket. Show the emailed/SMS QR at the main entrance.</p>
+            <div class="links"><a href="https://tickets.skansen.se/en/basket">Official Skansen tickets ↗</a></div>
+          </article>
+
+          <article class="ticket-card">
+            <span class="booking-badge door">Pay at the door</span>
+            <h3>Royal Armoury · Thu 27 Aug</h3>
+            <p>Pay contactless at 10:00: two adults at 180 SEK; Gustaw enters free. Ask for the <strong>Palace Mouse</strong> trail and use the free phone audio guide with your own headphones.</p>
+            <div class="links"><a href="https://livrustkammaren.se/en/visit/admissions-and-tickets/">Admission details ↗</a><a href="https://livrustkammaren.se/en/visit/audioguide/">Phone audio guide ↗</a></div>
+          </article>
+
+          <article class="ticket-card">
+            <span class="booking-badge later">Rain option only</span>
+            <h3>Nordic Museum</h3>
+            <p>Buy on the phone only if it replaces Skansen. Show the emailed ticket; the English adult guide runs in a phone browser. The children’s <em>Nordic Life</em> audio is Swedish-only.</p>
+            <div class="links"><a href="https://www.nordiskamuseet.se/en/visit-us/admission/">Official tickets ↗</a><a href="https://www.nordiskamuseet.se/en/visit-us/museum-guide-on-your-phone/">Phone guide ↗</a></div>
+          </article>
+
+          <article class="ticket-card">
+            <span class="booking-badge later">Astrid option only</span>
+            <h3>Junibacken</h3>
+            <p>If chosen instead of Skansen/Nordic Museum, book 10:45 or 11:00 and show the emailed timed ticket. One Story Train ride is included; select Polish or English. The bookshop alone needs no ticket.</p>
+            <div class="links"><a href="https://www.junibacken.se/en/upplevelse/entrance-ticket-to-junibacken/">Official tickets ↗</a></div>
+          </article>
+
+        </div>
+        <div class="phone-box">
+          <h3>Before leaving the apartment</h3>
+          <ol>
+            <li>Open that day’s tickets once while online; keep copies on both adults’ phones.</li>
+            <li>Open the first Google Maps route, check Uber/Bolt pickup time and charge the small power bank.</li>
+            <li>Take headphones, water, a safe snack and a light layer. Turn screen brightness up at ticket scanners.</li>
+            <li>Keep this dietary sentence handy: <strong>“Gluten-free and fully dairy-free—no milk, butter, cream, cheese or yoghurt; cross-contact is acceptable.”</strong></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="plan">
+      <div class="wrap">
+        <div class="eyebrow" style="color:var(--sea)">The itinerary</div>
+        <h2>Five unhurried days</h2>
+        <p class="intro">Times are deliberately spacious. If anyone is tired, remove the final optional item rather than squeezing the day.</p>
+        <div class="days">
+          <article class="day">
+            <div class="day-photo"><img src="stockholm_itinerary_assets/hammarby.jpg" alt="Hammarby Sjöstad waterfront district"><span class="label">Tuesday · arrival</span></div>
+            <div class="day-body">
+              <div class="day-head"><div><div class="kicker">25 August</div><h3>Land, settle in, stay local</h3></div><span class="effort">Very low walking</span></div>
+              <ul class="timeline">
+                <li><span class="time">14:25</span><span>Assumed Ryanair departure from Wrocław. Use the time on your ticket as definitive.</span></li>
+                <li><span class="time">16:10</span><span>Assumed arrival at Arlanda; allow 45–60 minutes to leave the terminal.</span></li>
+                <li><span class="time">17:00</span><span><strong>Uber or Bolt direct to UNITY, Heliosgatan 13</strong>—the simplest start after the flight. Compare the two apps, accept an upfront price around <strong>550–750 SEK</strong> and verify the car registration before boarding. Allow 45–60 minutes.</span></li>
+                <li><span class="time">18:15</span><span>Check in, unpack and buy breakfast supplies at nearby ICA.</span></li>
+                <li><span class="time">19:15</span><span>Easy dinner at <a href="https://h10sushi.se/">H10 Foodcorner</a>; ask for a rice-based dish without milk-containing sauce.</span></li>
+                <li><span class="time">20:15</span><span>Optional 15–25 minute waterfront stroll, then an early night.</span></li>
+              </ul>
+              <div class="route-box"><strong>Open Tuesday’s locations in Google Maps</strong><div class="route-links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Stockholm+Arlanda+Airport&amp;destination=UNITY+Hammarby+Sjostad,+Heliosgatan+13,+Stockholm&amp;travelmode=driving">Arlanda → UNITY</a><a href="https://www.google.com/maps/search/?api=1&amp;query=UNITY+Hammarby+Sjostad,+Heliosgatan+13,+Stockholm">UNITY pin</a><a href="https://www.google.com/maps/search/?api=1&amp;query=ICA+Hammarby+Sjostad,+Stockholm">Nearby ICA</a><a href="https://www.google.com/maps/search/?api=1&amp;query=H10+Foodcorner,+Hammarby+Sjostad,+Stockholm">H10 dinner</a></div><span class="route-note">At Arlanda, follow the app’s pickup instructions. If using the taxi rank instead, take only a Swedavia-approved car and agree a fixed price first.</span></div>
+              <div class="note"><strong>Do not add city sightseeing.</strong> The airport transfer is enough travel for day one.</div>
+            </div>
+          </article>
+
+          <article class="day">
+            <div class="day-photo"><img src="stockholm_itinerary_assets/vasa.jpg" alt="The seventeenth-century Vasa ship inside the Vasa Museum"><span class="label">Wednesday · Djurgården</span></div>
+            <div class="day-body">
+              <div class="day-head"><div><div class="kicker">26 August</div><h3>Vasa + Sweden in miniature</h3></div><span class="effort">Moderate · tightly limited</span></div>
+              <ul class="timeline">
+                <li><span class="time">07:15</span><span>Breakfast in the apartment—lowest effort and easiest for the gluten/dairy-free diet.</span></li>
+                <li><span class="time">08:00</span><span><strong>Uber/Bolt from UNITY to Vasa Museum, Galärvarvsvägen 14.</strong> Allow 20–30 minutes and about <strong>150–210 SEK</strong>. Use the museum itself—not “Djurgården”—as the app destination.</span></li>
+                <li><span class="time">08:30</span><span><strong>Vasa Museum</strong>, about 2 hours. See the ship from several levels, the short film, the sinking/salvage story and crew reconstructions. Use the free audio guide rather than reading every panel.</span></li>
+                <li><span class="time">10:30</span><span>Seated drink/snack break. Then choose <strong>one</strong> nearby continuation—not all three.</span></li>
+                <li><span class="time">11:00</span><span><strong>A · Skansen, 90 minutes:</strong> check live departures for <strong>tram 7 toward Waldemarsudde</strong> from Nordiska museet/Vasamuseet and get off at Skansen. Take it only if due within about 5 minutes; otherwise the flat approach walk is roughly 12–15 minutes. Two adults cost about <strong>86 SEK total</strong> and Gustaw travels free with you. Enter at Djurgårdsslätten 49 and use the escalator uphill.</span></li>
+                <li><span class="time">11:00</span><span><strong>B · Nordic Museum, 60–90 minutes:</strong> walk about 3 minutes across the shared museum area; ordering a car would take longer. Use the phone guide, select only two galleries and finish in the admission-free shop.</span></li>
+                <li><span class="time">10:45</span><span><strong>C · Junibacken, 90–120 minutes:</strong> walk about 5 minutes to Galärvarvsvägen 8; a car is unnecessary. Prebook the timed entrance, ride the Story Train in Polish or English and browse Sweden’s largest children’s bookshop.</span></li>
+                <li><span class="time">12:45</span><span>Simple lunch and leave. If choosing Skansen and wanting a proper Swedish meal, reserve nearby <a href="https://ullawinbladh.se/">Ulla Winbladh</a> for about 13:00; otherwise keep lunch casual.</span></li>
+                <li><span class="time">13:45</span><span>Uber/Bolt to UNITY and a proper afternoon rest: roughly <strong>150–230 SEK</strong>, depending on which option you chose and traffic.</span></li>
+                <li><span class="time">18:30</span><span>Dinner at <a href="https://www.thefork.com/restaurant/madame-thu-hammarby-sjostad-r754989/menu">Madame Thu</a>, near the apartment.</span></li>
+              </ul>
+              <div class="route-box"><strong>Wednesday door-to-door links</strong><div class="route-links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=UNITY+Hammarby+Sjostad,+Heliosgatan+13,+Stockholm&amp;destination=Vasa+Museum,+Galarvarvsvagen+14,+Stockholm&amp;travelmode=driving">UNITY → Vasa</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Vasa+Museum,+Stockholm&amp;destination=Skansen,+Djurgardsslatten+49,+Stockholm&amp;travelmode=transit">Vasa → Skansen tram</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Vasa+Museum,+Stockholm&amp;destination=Skansen,+Djurgardsslatten+49,+Stockholm&amp;travelmode=walking">Vasa → Skansen walk</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Vasa+Museum,+Stockholm&amp;destination=Nordiska+museet,+Stockholm&amp;travelmode=walking">Vasa → Nordic Museum</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Vasa+Museum,+Stockholm&amp;destination=Junibacken,+Galarvarvsvagen+8,+Stockholm&amp;travelmode=walking">Vasa → Junibacken</a><a href="https://www.google.com/maps/search/?api=1&amp;query=Wardshuset+Ulla+Winbladh,+Stockholm">Ulla Winbladh pin</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Skansen,+Stockholm&amp;destination=UNITY+Hammarby+Sjostad,+Heliosgatan+13,+Stockholm&amp;travelmode=driving">Skansen → UNITY</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Nordiska+museet,+Stockholm&amp;destination=UNITY+Hammarby+Sjostad,+Heliosgatan+13,+Stockholm&amp;travelmode=driving">Nordic Museum → UNITY</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Junibacken,+Galarvarvsvagen+8,+Stockholm&amp;destination=UNITY+Hammarby+Sjostad,+Heliosgatan+13,+Stockholm&amp;travelmode=driving">Junibacken → UNITY</a></div><span class="route-note">Convenience winner: app car to and from Djurgården; tram 7 or a short walk from Vasa to Skansen; walk to the immediately adjacent Nordic Museum or Junibacken.</span></div>
+              <div class="note"><strong>Decision rule:</strong> Skansen gives the most living Swedish history, the Nordic Museum gives the best indoor cultural overview, and Junibacken gives the strongest Astrid Lindgren experience for Gustaw. Vasa alone is already enough if energy is low. The Junibacken bookshop is also a free 15-minute Astrid stop without buying museum admission.</div>
+            </div>
+          </article>
+
+          <article class="day">
+            <div class="day-photo"><img src="stockholm_itinerary_assets/gamla-stan.jpg" alt="Panorama of colourful buildings and church towers in Gamla Stan"><span class="label">Thursday · old Stockholm</span></div>
+            <div class="day-body">
+              <div class="day-head"><div><div class="kicker">27 August</div><h3>Swedish royal history, food + design</h3></div><span class="effort">Low–moderate</span></div>
+              <ul class="timeline">
+                <li><span class="time">08:15</span><span>Breakfast in the apartment. Save the day's appetite and energy for Swedish lunch and fika.</span></li>
+                <li><span class="time">09:20</span><span><strong>Uber/Bolt to Royal Armoury, Slottsbacken 3</strong>: allow 20–30 minutes and about <strong>150–210 SEK</strong>. Use this exact entrance; a generic “Royal Palace” pin can leave you on the wrong side of the building.</span></li>
+                <li><span class="time">10:00</span><span><strong>Royal Armoury</strong>, 75–90 minutes: Gustav II Adolf's armour and horse, royal costumes, ceremonial carriages and the child-friendly Palace Mouse trail. Gustaw enters free.</span></li>
+                <li><span class="time">11:30</span><span><strong>Walk the compact pedestrian route</strong> from Slottsbacken through Stortorget and one atmospheric alley to Tradition—about 600–800 metres in total. Adding <strong>Iris Hantverk</strong> increases the loop to roughly 1.3 km, so do it only if energy is good; a car cannot improve the pedestrian Old Town segment.</span></li>
+                <li><span class="time">12:15</span><span>Reserved Swedish lunch at <a href="https://www.restaurangtradition.se/">Tradition</a>. Ask in advance for gluten-free and fully dairy-free rather than merely lactose-free food.</span></li>
+                <li><span class="time">13:45</span><span>Choose either <strong>Uber directly home</strong>, about <strong>150–210 SEK</strong>, or drive to <strong>Svensk Hemslöjd, Norrlandsgatan 20</strong>, about 10 minutes and <strong>90–130 SEK</strong>. Do not add another museum.</span></li>
+                <li><span class="time">14:45</span><span>From Svensk Hemslöjd, Uber home in roughly 20–30 minutes and <strong>150–210 SEK</strong>.</span></li>
+                <li><span class="time">19:00</span><span>Dinner at <a href="https://namaskaar.se/">Namaskaar</a>. Indian menus are often adaptable; confirm no butter, cream or yoghurt.</span></li>
+              </ul>
+              <div class="route-box"><strong>Thursday door-to-door links</strong><div class="route-links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=UNITY+Hammarby+Sjostad,+Heliosgatan+13,+Stockholm&amp;destination=Royal+Armoury,+Slottsbacken+3,+Stockholm&amp;travelmode=driving">UNITY → Armoury</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Armoury,+Slottsbacken+3,+Stockholm&amp;destination=Tradition,+Osterlanggatan+1,+Stockholm&amp;waypoints=Stortorget,+Stockholm&amp;travelmode=walking">Short Old Town route</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Royal+Armoury,+Slottsbacken+3,+Stockholm&amp;destination=Tradition,+Osterlanggatan+1,+Stockholm&amp;waypoints=Stortorget,+Stockholm%7CIris+Hantverk,+Vasterlanggatan+24,+Stockholm&amp;travelmode=walking">Longer route via Iris</a><a href="https://www.google.com/maps/search/?api=1&amp;query=Tradition,+Osterlanggatan+1,+Stockholm">Tradition pin</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tradition,+Osterlanggatan+1,+Stockholm&amp;destination=Svensk+Hemslojd,+Norrlandsgatan+20,+Stockholm&amp;travelmode=driving">Tradition → craft shop</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Tradition,+Osterlanggatan+1,+Stockholm&amp;destination=UNITY+Hammarby+Sjostad,+Heliosgatan+13,+Stockholm&amp;travelmode=driving">Tradition → UNITY</a></div><span class="route-note">Convenience winner: car to and from Gamla Stan; walk only inside its compact pedestrian core. Set the destination to Slottsbacken 3, not the palace courtyard.</span></div>
+              <div class="note"><strong>Optional, not core:</strong> the guard change begins at 12:15, but it requires extra standing among crowds. Glimpse the approaching band near Norrbro only if timing and energy align; do not wait 40 minutes for it.</div>
+            </div>
+          </article>
+
+          <article class="day">
+            <div class="day-photo"><img src="stockholm_itinerary_assets/fjaderholmarna.jpg" alt="Aerial view of the green Fjäderholmarna islands in Stockholm archipelago"><span class="label">Friday · archipelago</span></div>
+            <div class="day-body">
+              <div class="day-head"><div><div class="kicker">28 August</div><h3>The archipelago from a classic ship</h3></div><span class="effort">Low walking · mostly seated</span></div>
+              <ul class="timeline">
+                <li><span class="time">08:15</span><span>Slow apartment breakfast after two sightseeing days.</span></li>
+                <li><span class="time">09:35</span><span><strong>Uber/Bolt to the Strömma archipelago-tour pin at Strandvägen 8</strong>: allow 20–30 minutes and about <strong>150–210 SEK</strong>. On arrival, follow the quay numbers to <strong>berth 15</strong> and be there by 10:10.</span></li>
+                <li><span class="time">10:30</span><span><strong>2.5-hour guided archipelago cruise</strong> aboard the classic M/S Östanå I. This reaches farther into the inner archipelago than the short Fjäderholmarna ferry and requires almost no walking.</span></li>
+                <li><span class="time">10:45</span><span>Pre-book the lunch version for a guaranteed restaurant seat. Strömma accommodates gluten- and lactose-free diets without charge when notified at least five days ahead; specify fully dairy-free as well.</span></li>
+                <li><span class="time">13:00</span><span>Return to Strandvägen. Walk roughly 3–5 flat minutes along the waterfront to <strong>Svenskt Tenn, Strandvägen 5</strong>. Do not order a car for this segment; pickup and traffic would take longer.</span></li>
+                <li><span class="time">13:15</span><span>Browse for 30–45 minutes, then Uber home in about 20–30 minutes and <strong>150–210 SEK</strong>. If the cruise has been tiring, order the car directly from the berth and skip the shop.</span></li>
+                <li><span class="time">14:15</span><span>Downtime, rooftop terrace if pleasant, and packing.</span></li>
+                <li><span class="time">18:30</span><span>Final dinner at <a href="https://sjostadensmarina.com/valkommen-in/">Sjöstadens Marina</a>, chosen for the waterside setting.</span></li>
+              </ul>
+              <div class="route-box"><strong>Friday door-to-door links</strong><div class="route-links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=UNITY+Hammarby+Sjostad,+Heliosgatan+13,+Stockholm&amp;destination=Stromma+Lilla+Skargardsturen,+Strandvagen+8,+Stockholm&amp;travelmode=driving">UNITY → cruise berth</a><a href="https://www.google.com/maps/search/?api=1&amp;query=Stromma+Lilla+Skargardsturen,+Strandvagen+8,+Stockholm">Cruise berth pin</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Stromma+Lilla+Skargardsturen,+Strandvagen+8,+Stockholm&amp;destination=Svenskt+Tenn,+Strandvagen+5,+Stockholm&amp;travelmode=walking">Berth → Svenskt Tenn</a><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Svenskt+Tenn,+Strandvagen+5,+Stockholm&amp;destination=UNITY+Hammarby+Sjostad,+Heliosgatan+13,+Stockholm&amp;travelmode=driving">Svenskt Tenn → UNITY</a></div><span class="route-note">Convenience winner: car at both ends, short waterfront walk between berth 15 and Svenskt Tenn.</span></div>
+              <div class="note"><strong>Comfort detail:</strong> the lunch ticket gives you an assigned indoor restaurant seat. Ask Strömma for main-deck seating if the steep stairs to the restaurant could be a problem.</div>
+            </div>
+          </article>
+
+          <article class="day">
+            <div class="day-photo"><img src="stockholm_itinerary_assets/hammarby.jpg" alt="View across the modern Hammarby Sjöstad neighbourhood"><span class="label">Saturday · departure</span></div>
+            <div class="day-body">
+              <div class="day-head"><div><div class="kicker">29 August</div><h3>A calm exit</h3></div><span class="effort">Very low walking</span></div>
+              <ul class="timeline">
+                <li><span class="time">07:30</span><span>Apartment breakfast, final packing and room check.</span></li>
+                <li><span class="time">09:15</span><span>Leave by prebooked Uber/Bolt or fixed-price Taxi Stockholm for Arlanda. Allow <strong>550–800 SEK</strong> and 45–60 minutes; use the terminal shown in the Ryanair app.</span></li>
+                <li><span class="time">10:15</span><span>Target arrival at the terminal, about three hours before departure.</span></li>
+              </ul>
+              <div class="route-box"><strong>Saturday map</strong><div class="route-links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=UNITY+Hammarby+Sjostad,+Heliosgatan+13,+Stockholm&amp;destination=Stockholm+Arlanda+Airport&amp;travelmode=driving">UNITY → Arlanda</a><a href="https://www.google.com/maps/search/?api=1&amp;query=Stockholm+Arlanda+Airport">Arlanda pin</a></div><span class="route-note">Prebook the evening before. Compare the app price with Taxi Stockholm’s fixed quote and choose the clearer confirmed price.</span></div>
+              <div class="note"><strong>Flight time needs confirmation.</strong> Recalculate the hotel departure as scheduled take-off minus 3 hours 45 minutes. Add only a short waterfront walk if the actual flight is much later.</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="finds">
+      <div class="wrap">
+        <div class="eyebrow" style="color:var(--sea)">Swedish design · placed on existing routes</div>
+        <h2>Distinctly Swedish finds without a shopping marathon</h2>
+        <p class="intro">The efficient formula is <strong>Svenskt Tenn plus one small route stop</strong>. The other choices are backups, not a checklist: shopping should consume no more than 30–60 minutes on any day.</p>
+        <div class="grid finds-grid">
+          <article class="card recommend"><div class="kicker">Priority · Friday after the cruise</div><h3>Svenskt Tenn</h3><p>The classic Stockholm design destination: Estrid Ericson interiors, Josef Frank textiles, pewter and beautifully staged rooms. It is at Strandvägen 5, almost where the boat returns, so it adds little travel.</p><a href="https://www.svenskttenn.com/us/en/svenskt-tenn/the-store/">Store details</a></article>
+          <article class="card"><div class="kicker">Inside optional Skansen</div><h3>Pottery + glassworks</h3><p>Watch working crafts in the Town Quarter. Skansen’s hand-thrown pottery is made, glazed and fired on site and sold exclusively there—more distinctive than a generic souvenir.</p><a href="https://www.skansen.se/en/plan-your-visit/shops/">Skansen shops</a></article>
+          <article class="card"><div class="kicker">Free shop · beside Vasa</div><h3>Nordic Museum shop</h3><p>Nordic craft, classic children’s books, vintage-inspired pieces and Swedish foods. The shop can be entered without museum admission, making it a useful 15-minute fallback.</p><a href="https://www.nordiskamuseet.se/en/visit-us/">Visitor information</a></article>
+          <article class="card"><div class="kicker">Astrid Lindgren · free entry</div><h3>Junibacken bookshop</h3><p>Sweden’s largest children’s bookshop carries Astrid Lindgren classics and newer Swedish children’s literature in several languages. No Junibacken admission is needed just to shop.</p><a href="https://www.junibacken.se/en/">Junibacken</a></article>
+          <article class="card"><div class="kicker">10 minutes in Gamla Stan</div><h3>Iris Hantverk</h3><p>Functional Nordic homewares, natural-material brushes, textiles and Klippan blankets. Its brushes are traditionally made by visually impaired craftspeople. Stop only if Västerlånggatan is not unpleasantly busy.</p><a href="https://www.irishantverk.se/sv/butiker">Store details</a></article>
+          <article class="card"><div class="kicker">Thursday alternative</div><h3>Svensk Hemslöjd</h3><p>Sweden’s oldest handicraft association, founded in 1899, with traditional and contemporary craft, linen, embroidery and rya kits, blankets, carved pieces and Dala horses. Take a taxi and choose it instead of extending the Old Town walk.</p><a href="https://svenskhemslojd.com/">Shop site</a></article>
+        </div>
+        <div class="note"><strong>Best buying logic:</strong> browse rather than promise purchases. Svenskt Tenn is the most polished design experience; Skansen pottery is the most place-specific object; Junibacken is best for Astrid Lindgren books; Svensk Hemslöjd is best for genuine Swedish craft.</div>
+      </div>
+    </section>
+
+    <section id="transport">
+      <div class="wrap">
+        <div class="eyebrow" style="color:var(--sea)">Door-to-door where it counts</div>
+        <h2>Transport playbook</h2>
+        <p class="intro"><strong>Default to an app car for airport travel and cross-district journeys of roughly 3 km or more—not for every hop.</strong> Under about 1.5 km, pickup time, minimum fare and possible waiting generally make a car less convenient than a direct tram or short walk. Compare Uber and Bolt’s upfront prices for the longer rides.</p>
+        <div class="tables">
+          <div class="table-scroll"><table><thead><tr><th>Planned transfer</th><th>Time</th><th>Estimate</th></tr></thead><tbody>
+            <tr><td>Arlanda → UNITY</td><td>45–60 min</td><td>550–800 SEK</td></tr>
+            <tr><td>UNITY → Vasa</td><td>20–30 min</td><td>150–210 SEK</td></tr>
+            <tr><td>Vasa → Skansen · tram 7 if due soon</td><td>short ride + wait</td><td>86 SEK family</td></tr>
+            <tr><td>Djurgården → UNITY</td><td>20–30 min</td><td>150–230 SEK</td></tr>
+            <tr><td>UNITY → Royal Armoury</td><td>20–30 min</td><td>150–210 SEK</td></tr>
+            <tr><td>Tradition → Svensk Hemslöjd</td><td>8–12 min</td><td>90–130 SEK</td></tr>
+            <tr><td>Central Stockholm → UNITY</td><td>20–30 min</td><td>150–210 SEK</td></tr>
+            <tr><td>UNITY → Strömma, Strandvägen 8 / berth 15</td><td>20–30 min</td><td>150–210 SEK</td></tr>
+            <tr><td>Svenskt Tenn → UNITY</td><td>20–30 min</td><td>150–210 SEK</td></tr>
+            <tr><td>UNITY → Arlanda</td><td>45–60 min</td><td>550–800 SEK</td></tr>
+          </tbody></table></div>
+          <article class="card">
+            <div class="kicker">Comfort-first total</div><h3>Allow 2,500–3,500 SEK</h3>
+            <p>That is approximately <strong>975–1,365 PLN</strong> for both airport transfers, the genuinely useful city cars, the one tram hop and a buffer for one extra ride or mild surge pricing.</p>
+            <p><strong>Walk only four compact links:</strong> Vasa ↔ Nordic Museum, Vasa ↔ Junibacken, the short Gamla Stan loop and berth 15 → Svenskt Tenn. In each case a car is no more convenient.</p>
+            <p class="muted">For Arlanda, compare Uber, Bolt and Taxi Stockholm’s fixed quote. Sweden permits free taxi pricing, so never accept an unsolicited driver. At the airport use the app’s named car or a Swedavia-approved taxi, confirm the registration and agree the displayed/fixed fare.</p>
+            <div class="links"><a href="https://www.uber.com/global/sv/price-estimate/">Uber estimator</a> · <a href="https://www.taxistockholm.se/sv/hjalpcenter/priser/pris-till-och-fran-arlanda/">Taxi Stockholm fixed price</a></div>
+          </article>
+        </div>
+        <div class="phone-box">
+          <div class="kicker">Public transport payment · simplest method</div>
+          <h3>Tap two separate cards; Gustaw rides free</h3>
+          <ol>
+            <li>At the <strong>Nordiska museet/Vasamuseet</strong> tram stop, each adult taps their own contactless Visa, Mastercard or American Express—or their own Apple Pay/Google Pay device—on the green SL reader <strong>before boarding</strong>.</li>
+            <li>Wait for the green light. Each tap buys one <strong>43 SEK</strong> adult single ticket, valid for 75 minutes; there is no need to tap out. One bank card can pay only for its own passenger.</li>
+            <li><strong>Do not tap for Gustaw.</strong> A fare-paying adult may bring children aged 7–11 free every day; up to six children are allowed with one adult.</li>
+            <li>If inspected, present the same physical card or the same phone/watch that was tapped. A physical card and its wallet version count as different payment media, so do not switch between them during the ticket’s validity.</li>
+          </ol>
+          <p><strong>App fallback:</strong> install <em>SL – Journey planner and tickets</em>, select bank-card payment as a temporary visitor, buy an adult single ticket on each adult’s phone and activate it before boarding. The app is useful for live departures, but contactless tapping is faster for this one likely journey.</p>
+          <p><strong>Do not buy a 24/72-hour pass or physical SL card.</strong> The plan uses public transport too rarely for either to make sense.</p>
+          <div class="route-links"><a href="https://sl.se/en/fares-and-tickets/contactless-pay-as-you-go">Official contactless guide</a><a href="https://sl.se/en/fares-and-tickets/smart-phone-ticket-app">Official SL app guide</a><a href="https://sl.se/en/fares-and-tickets/travelling-with-children">Child travel rule</a></div>
+        </div>
+        <div class="note"><strong>Ordering rule:</strong> first check the route length in the supplied Maps link. Below about 1.5 km, do not call a car unless someone is genuinely exhausted. For longer rides, request 10–15 minutes before departure and avoid intermediate app stops—waiting and route changes can alter the upfront price.</div>
+      </div>
+    </section>
+
+    <section id="food">
+      <div class="wrap">
+        <div class="eyebrow" style="color:var(--sea)">Low-friction meals</div>
+        <h2>Eat well without turning it into a project</h2>
+        <p class="intro">Use one precise sentence: <strong>“Gluten-free and fully dairy-free—no milk, butter, cream, cheese or yoghurt; cross-contact is acceptable.”</strong> “Lactose-free” alone is not sufficient.</p>
+        <div class="grid food-grid">
+          <article class="card wide"><div class="kicker">Every morning</div><h3>Apartment breakfast</h3><p>Use the kitchenette: eggs, fruit, gluten-free bread/crackers, plant milk and dairy-free yoghurt from the nearby ICA. It is quicker, calmer and gives reliable diet control.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=ICA+Hammarby+Sjostad,+Stockholm">Open nearby ICA in Maps</a></article>
+          <article class="card"><div class="kicker">Tuesday · arrival dinner</div><h3>H10 Foodcorner</h3><p>Keep it simple with sushi or another rice-based dish; confirm the sauces.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=H10+Foodcorner,+Hammarby+Sjostad,+Stockholm">Google Maps pin</a></article>
+          <article class="card"><div class="kicker">Wednesday · local dinner</div><h3>Madame Thu</h3><p>Modern Vietnamese near UNITY. Ask about wheat in sauces and request no dairy.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Madame+Thu,+Hammarby+Sjostad,+Stockholm">Google Maps pin</a></article>
+          <article class="card recommend"><div class="kicker">Thursday · reserved Swedish lunch</div><h3>Tradition</h3><p>The important Swedish meal of the trip, directly after Gamla Stan. Reconfirm the full diet sentence when seated.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Tradition,+Osterlanggatan+1,+Stockholm">Google Maps pin</a></article>
+          <article class="card"><div class="kicker">Only with Skansen</div><h3>Ulla Winbladh</h3><p>A historic Djurgården inn for classic Swedish food. Use only if already reserved and the restaurant confirmed a fully dairy-free main.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Wardshuset+Ulla+Winbladh,+Stockholm">Google Maps pin</a></article>
+          <article class="card"><div class="kicker">Thursday · local dinner</div><h3>Namaskaar</h3><p>Choose rice-based dishes and explicitly exclude ghee, butter, cream and yoghurt.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Namaskaar,+Hammarby+Sjostad,+Stockholm">Google Maps pin</a></article>
+          <article class="card"><div class="kicker">Friday · waterfront finale</div><h3>Sjöstadens Marina</h3><p>Use the diet sentence again and enjoy the neighbourhood setting rather than travelling back into town.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Sjostadens+Marina,+Stockholm">Google Maps pin</a></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap credits">
+    <strong>Updated 18 August 2026.</strong> Opening hours, availability, menus, transport prices and sailing times can change; reconfirm before purchase and again shortly before travel. Dietary suggestions are practical rather than allergy assurances.
+    <p>Photo credits via Wikimedia Commons: Hammarby Sjöstad by Arild; Vasa Museum interior by Steven Lek; Skansen entrance building via Wikimedia Commons; Gamla Stan panorama by Acediscovery; Fjäderholmarna by Jan Norrman / Riksantikvarieämbetet. Photos used under their respective Commons licences.</p>
+  </div></footer>
+</body>
+</html>
